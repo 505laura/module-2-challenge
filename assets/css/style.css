@@ -56,7 +56,7 @@
 2. Socials Side Bar
 
 ****************************************************
-*/
+  */
 
 ul {
     margin-right: 3%;
@@ -94,3 +94,45 @@ ul {
     align-items: center;
     margin-left: 20px;
   }
+
+  /* 
+****************************************************
+
+3. About Me Section 
+
+****************************************************
+  */
+
+h2 {
+  color: #8789f0;
+  font-size: 350%;
+  margin-top: 8%;
+  text-align: center;
+}
+
+/* Create a flexible section for the image and text paragraph.*/
+#about-me {
+  display: flex;
+  width: 99vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 3%;
+}
+
+/* Round the corners of the image and add a border. */
+#about-me > img {
+  border-radius: 8%;
+  padding: 0.4%;
+  border: 1px solid #C5C0B8;
+  height: auto;
+  width: 16vw;
+  margin-right: 3%;
+}
+
+#about-me-content {
+  display: flex;
+  width: 35%;
+  font-size: 130%;
+  margin-right: 18%;
+}
