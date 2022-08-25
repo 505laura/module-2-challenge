@@ -148,10 +148,17 @@ h2 span {
   margin-right: 3%;
 }
 
-/* Adjust the font size and position of the content in the about section. */
+/* Adjust the size and direction of the content in the about section. */
 #about-me-content {
   display: flex;
+  flex-direction: column;
   width: 35%;
   font-size: 130%;
   margin-right: 12%;
+}
+
+#about-me-content img {
+  padding-top: 8%;
+  height: auto;
+  width: 50px;
 }
