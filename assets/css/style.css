@@ -269,3 +269,65 @@ h2 span {
   width: 100%;
   height: 100%;
 }
+
+/* 
+****************************************************
+
+5. Contact Section
+
+****************************************************
+*/
+
+/* Set width of contact section. */
+#contact {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+  height: 50vh;
+  width: 99vw;
+}
+
+#contact h3 {
+  width: 20%;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 5vw;
+  color: #C5C0B8;
+}
+
+/* Create container for contact section content. */
+#contact-content {
+  display: flex;
+  height: auto;
+  font-size: 110%;
+  align-items: flex-start;
+}
+
+#email {
+  display: flex;
+  font-size: 100%;
+  justify-content: center;
+  margin-right: 41px;
+  margin-top: 8%;
+}
+
+/* Add styling and transition to button containing email link. */
+button {
+  height: 6vh;
+  width: 20vw;
+  margin-top: 10%;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Remove underline on email link. */
+button a {
+  text-decoration: none;
+  color: rgb(219, 213, 213);
+}
+
+button:hover {
+  transform: scale(1.1);
+}
