@@ -391,3 +391,19 @@ input::placeholder {
   font-size: 80%;
   color: rgb(119, 119, 119);
 }
+
+/* 
+****************************************************
+
+Footer
+
+****************************************************
+*/
+
+/* Centre and bold footer text. */
+footer {
+  text-align: center;
+  font-weight: bold;
+  height: 10vh;
+  margin-top: 5%;
+}
