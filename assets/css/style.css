@@ -59,7 +59,7 @@ header nav a:hover {
 2. Socials Side Bar
 
 ****************************************************
-  */
+*/
 
 ul {
   margin-right: 3%;
@@ -104,7 +104,7 @@ ul li {
 3. About Me Section 
 
 ****************************************************
-  */
+*/
 
 /* Add a single line using a border that goes on each side of the heading. (*See 'h2 span' below) */
 h2 {
@@ -138,7 +138,7 @@ h2 span {
   margin-top: 3%;
 }
 
-/* Round the corners of the image and add a border. */
+/* Add a filter and transition to the image in the 'about' section that dulls the color. */
 #about-me > img {
   border-radius: 8%;
   padding: 0.4%;
@@ -146,7 +146,14 @@ h2 span {
   height: auto;
   width: 16vw;
   margin-right: 3%;
+  filter: grayscale(25%);
+  transition: filter 0.3s ease-in-out;
 }
+
+/* Add a hover effect that brings the color back to the image that was dulled. */
+#about-me img:hover {
+  filter: none;
+  }
 
 /* Adjust the size and direction of the content in the about section. */
 #about-me-content {
@@ -161,4 +168,10 @@ h2 span {
   padding-top: 8%;
   height: auto;
   width: 50px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Add a hover effect to the arrow image under the paragraph. */
+#about-me-content img:hover {
+  transform: scale(1.1);
 }
