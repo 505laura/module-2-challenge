@@ -331,3 +331,63 @@ button a {
 button:hover {
   transform: scale(1.1);
 }
+
+form h4 {
+  font-size: 2vw;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+#submit-form {
+  text-align: center;
+}
+
+/* Round borders amd change width and height of the input boxes on the form. */
+input {
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+}
+
+/* Add margins to and set width of the input boxes.  */
+.form-cell {
+  margin-bottom: 3%;
+  width: 13.5vw;
+}
+
+#row-1 input {
+  background-color: #C5C0B8;
+}
+
+#row-2 input {
+  background-color: #b3cf99
+}
+
+#row-3 input {
+  background-color: #87ab69
+}
+
+#message {
+  height: 15vh;
+  width: 27.5vw;
+}
+
+#submit-button {
+  height: 5vh;
+  width: 27.5vw;
+  margin-top: 3%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#submit-button:hover {
+  background-color: rgba(182, 179, 179, 0.699);
+
+}
+
+/* Add placeholder text in the input boxes. */
+input::placeholder {
+  padding-left: 2%;
+  font-size: 80%;
+  color: rgb(119, 119, 119);
+}
