@@ -8,7 +8,9 @@ This website is designed to be a personal web development portfolio that will sh
 The code is designed to be semantic and have a logical layout. The CSS includes multiple different sections to provide clear divides in the styling of each part of the content. 
 
 ## Visuals
-![Webpage]()
+![Webpage](https://raw.githubusercontent.com/505laura/module-2-challenge/main/assets/images/505laura.github.io_module-2-challenge_%20(1).png)
+![Webpage](https://raw.githubusercontent.com/505laura/module-2-challenge/main/assets/images/505laura.github.io_module-2-challenge_%20(2).png)
+![Webpage](https://raw.githubusercontent.com/505laura/module-2-challenge/main/assets/images/505laura.github.io_module-2-challenge_%20(3).png)
 
 ## Usage
 ### Navigation
