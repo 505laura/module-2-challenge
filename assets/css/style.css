@@ -1,0 +1,40 @@
+
+  /* 
+  ****************************************************
+  
+  1. Header
+  
+  ****************************************************
+  */
+  
+  /* Fix the first heading and navigation bar to the top of the page. */
+  header {
+    position: fixed;
+    display: flex;
+    width: 99vw;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 180%;
+    margin-left: 3%;
+  }
+
+  header nav {
+    margin-right: 3%;
+  }
+  
+  /* Remove lines under navigation links. */
+  header nav a {
+    color: #C5C0B8;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  /* Add space between the header and main text section. */
+  #spacer {
+    height: 12vh;
+    background-color: transparent;
+  }
