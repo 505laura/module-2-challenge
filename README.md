@@ -1,22 +1,32 @@
-## Portfolio
+# Portfolio
+
+[Link to Deployed Application](https://505laura.github.io/module-2-challenge)
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+This website is designed to be a personal web development portfolio that will showcase the works of the creator as well as provide ways to learn more about them and/or get in contact. It is intended to give potential employers an indication of their capabilities. It includes an 'about', 'portfolio' and 'contact' section as well as links to social medias.
+
+The code is designed to be semantic and have a logical layout. The CSS includes multiple different sections to provide clear divides in the styling of each part of the content. 
 
 ## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+![Webpage]()
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+### Navigation
+Use the 'About', 'Portfolio' and 'Contact' links located at the top right of the website to direct you straight to the content you would like to see. The 'Resume' link will be added soon.
+You can also use the arrow below the first text section to take you to the portfolio.
+
+### Social Media Sidebar
+There is a fixed sidebar on the bottom right of the screen that contains links to GitHub, Twitter and Instagram. These sites can be accessed once you click on the images.
+
+### Portfolio Section
+The 'Portfolio' section includes images that can be hovered over and clicked on. The first two will bring you to projects that have been pushed to GitHub.
+
+### Contact Section
+The 'Contact' section features an 'Email Me' button that once clicked on, will open the email application with the authors email already entered in the field. 
+There is also a form that potential visitors to the site can use to get in touch with the creator. They can do so by entering their email and a message (required) and optionally, their name and phone number.
 
 ## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+This website will be updated frequently as new projects are completed and are ready to be displayed. This will be a continuous process as the author learns new technologies and furthers their skills and knowledge.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+## Acknowledgment
+Used part of the CSS reset code: https://meyerweb.com/eric/tools/css/reset/

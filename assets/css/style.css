@@ -1,4 +1,5 @@
 body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #0b1822;
   color: #C5C0B8;
 }
@@ -356,15 +357,15 @@ input {
 }
 
 #row-1 input {
-  background-color: #C5C0B8;
+  background-color: #6e6d6b;
 }
 
 #row-2 input {
-  background-color: #b3cf99
+  background-color: #8d918a
 }
 
 #row-3 input {
-  background-color: #87ab69
+  background-color: #a4a7a1
 }
 
 #message {
@@ -380,7 +381,7 @@ input {
 }
 
 #submit-button:hover {
-  background-color: rgba(182, 179, 179, 0.699);
+  background-color: rgba(22, 22, 22, 0.904);
 
 }
 
@@ -388,7 +389,7 @@ input {
 input::placeholder {
   padding-left: 2%;
   font-size: 80%;
-  color: rgb(119, 119, 119);
+  color: rgba(22, 22, 22, 0.904);
 }
 
 /* 
