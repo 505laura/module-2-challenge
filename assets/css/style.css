@@ -14,12 +14,12 @@ body {
 header {
   position: fixed;
   display: flex;
-  width: 99vw;
+  width: 95vw;
   height: 10vh;
   justify-content: space-between;
   align-items: center;
 }
-  
+
 header h1 {
   font-size: 180%;
   margin-left: 3%;
@@ -131,7 +131,7 @@ h2 span {
 /* Create a flexible section for the image and text paragraph.*/
 #about-me {
   display: flex;
-  width: 99vw;
+  width: 95vw;
   height: 50vh;
   justify-content: center;
   align-items: flex-start;
@@ -175,3 +175,56 @@ h2 span {
 #about-me-content img:hover {
   transform: scale(1.1);
 }
+
+/* 
+****************************************************
+
+4. Portfolio Section 
+
+****************************************************
+*/
+
+/* Create a flexible section for the portfolio heading and content. */
+#portfolio {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+  height: 100vh;
+  width: 95vw;
+}
+
+/* Add an even margin on each side of the heading. */
+#portfolio h3 {
+  width: 20%;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 5vw;
+  color: #C5C0B8;
+}
+
+/* Create a second flexible container for the portfolio work and allow the content to wrap. */
+#work {
+  display: flex;
+  width: 80%;
+  height: 45vh;
+  flex-wrap: wrap;
+  justify-content: flex-start
+}
+
+#project-1 {
+  margin: 0 1% 1% 0;
+  border-radius: 50%; 
+  max-width: 25%;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: #C5C0B8;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
