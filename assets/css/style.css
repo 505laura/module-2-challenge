@@ -22,15 +22,26 @@
     margin-left: 3%;
   }
 
+  /* Add symbol after first heading. */
+  header h1::after {
+    content: " ❊";
+  }
+
   header nav {
     margin-right: 3%;
   }
   
-  /* Remove lines under navigation links. */
+  /* Remove lines under navigation links and add a transition to the color when you hover over them.. */
   header nav a {
     color: #C5C0B8;
     text-decoration: none;
     padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Change the color of the links in the nav when hovered over. */
+  header nav a:hover {
+    color: #8789f0;
   }
 
   /* Add space between the header and main text section. */
