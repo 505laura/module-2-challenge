@@ -1,56 +1,59 @@
-
-  /* 
-  ****************************************************
+body {
+  background-color: #0b1822;
+  color: #C5C0B8;
+}
+/* 
+****************************************************
   
-  1. Header
+1. Header
   
-  ****************************************************
-  */
+****************************************************
+*/
   
-  /* Fix the first heading and navigation bar to the top of the page. */
-  header {
-    position: fixed;
-    display: flex;
-    width: 99vw;
-    height: 10vh;
-    justify-content: space-between;
-    align-items: center;
-  }
+/* Fix the first heading and navigation bar to the top of the page. */
+header {
+  position: fixed;
+  display: flex;
+  width: 99vw;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+}
   
-  header h1 {
-    font-size: 180%;
-    margin-left: 3%;
-  }
+header h1 {
+  font-size: 180%;
+  margin-left: 3%;
+}
 
-  /* Add symbol after first heading. */
-  header h1::after {
-    content: " ❊";
-  }
+/* Add symbol after first heading. */
+header h1::after {
+  content: " ❊";
+}
 
-  header nav {
-    margin-right: 3%;
-  }
+header nav {
+  margin-right: 3%;
+}
   
-  /* Remove lines under navigation links and add a transition to the color when you hover over them.. */
-  header nav a {
-    color: #C5C0B8;
-    text-decoration: none;
-    padding: 20px;
-    transition: all 0.3s ease-in-out;
-  }
+/* Remove lines under navigation links and add a transition to the color when you hover over them.. */
+header nav a {
+  color: #C5C0B8;
+  text-decoration: none;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
 
-  /* Change the color of the links in the nav when hovered over. */
-  header nav a:hover {
-    color: #8789f0;
-  }
+/* Change the color of the links in the nav when hovered over. */
+header nav a:hover {
+  color: #8789f0;
+}
 
-  /* Add space between the header and main text section. */
-  #spacer {
-    height: 12vh;
-    background-color: transparent;
-  }
+/* Add space between the header and main text section. */
+#spacer {
+  height: 12vh;
+  background-color: transparent;
+}
 
-  /* 
+/* 
 ****************************************************
 
 2. Socials Side Bar
@@ -59,43 +62,43 @@
   */
 
 ul {
-    margin-right: 3%;
+  margin-right: 3%;
   }
   
-  ul li {
-    padding: 10px;
+ul li {
+  padding: 10px;
+}
+  
+/* Set position of fix to the social media sidebar on the bottom left of the screen as a column. */
+#socials {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 3%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
   }
   
-  /* Set position of fix to the social media sidebar on the bottom left of the screen as a column. */
-  #socials {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin-right: 3%;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
+/* Invert the social media icons to make them white. */
+#socials img {
+  width: 22px;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
   
-  /* Invert the social media icons to make them white. */
-  #socials img {
-    width: 22px;
-    height: auto;
-    filter: brightness(0) invert(1);
-  }
-  
-  /* Create a vertical line under the social medias. */
-  #vertical-line {
-    width: 3px;
-    height: 20vh;
-    background-color: #C5C0B8;
-    display: inline-block;
-    align-items: center;
-    margin-left: 20px;
-  }
+/* Create a vertical line under the social medias. */
+#vertical-line {
+  width: 3px;
+  height: 20vh;
+  background-color: #C5C0B8;
+  display: inline-block;
+  align-items: center;
+  margin-left: 20px;
+}
 
-  /* 
+/* 
 ****************************************************
 
 3. About Me Section 
@@ -103,11 +106,26 @@ ul {
 ****************************************************
   */
 
+/* Add a single line using a border that goes on each side of the heading. (*See 'h2 span' below) */
 h2 {
   color: #8789f0;
   font-size: 350%;
   margin-top: 8%;
   text-align: center;
+  border-bottom: 2px solid #C5C0B8;
+  line-height: 0.1em;
+  margin-bottom: 3%;
+}
+
+/* Create a box under the heading that matches the background color to hide the horizontal line. */
+h2 span {
+  background: #0b1822;
+  padding: 0 15px;
+}
+
+/* Change the color of 'Laura.' in the heading. */
+#hello {
+  color: rgb(84, 59, 199);
 }
 
 /* Create a flexible section for the image and text paragraph.*/
@@ -130,9 +148,10 @@ h2 {
   margin-right: 3%;
 }
 
+/* Adjust the font size and position of the content in the about section. */
 #about-me-content {
   display: flex;
   width: 35%;
   font-size: 130%;
-  margin-right: 18%;
+  margin-right: 12%;
 }
