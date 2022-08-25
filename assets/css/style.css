@@ -14,7 +14,7 @@ body {
 header {
   position: fixed;
   display: flex;
-  width: 95vw;
+  width: 99vw;
   height: 10vh;
   justify-content: space-between;
   align-items: center;
@@ -131,7 +131,7 @@ h2 span {
 /* Create a flexible section for the image and text paragraph.*/
 #about-me {
   display: flex;
-  width: 95vw;
+  width: 99vw;
   height: 50vh;
   justify-content: center;
   align-items: flex-start;
@@ -189,8 +189,8 @@ h2 span {
   display: flex;
   align-items: center;
   margin-top: 3%;
-  height: 100vh;
-  width: 95vw;
+  width: 99vw;
+  min-height: 0;
 }
 
 /* Add an even margin on each side of the heading. */
@@ -204,7 +204,6 @@ h2 span {
 
 /* Create a second flexible container for the portfolio work and allow the content to wrap. */
 #work {
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   margin-left: 10%;
@@ -407,3 +406,36 @@ footer {
   height: 10vh;
   margin-top: 5%;
 }
+
+/* 
+****************************************************
+
+Media Queries 
+
+****************************************************
+*/
+
+/* Adjustments to the content for a tablet sized screen. */
+@media screen and (max-width: 992px) {
+
+  #about-me {
+    height: 40vh;
+  }
+
+  h2 {
+    margin-bottom: 7%;
+  }
+
+  #about-me-content {
+    width: 50vw;
+  }
+
+  #about-me img {
+    margin-left: 17%;
+  }
+
+  #about-me-content img {
+    margin-left: 0;
+  }
+}
+
