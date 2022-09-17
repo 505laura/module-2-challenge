@@ -1,6 +1,6 @@
 # Portfolio
 
-[Link to Deployed Application](https://505laura.github.io/module-2-challenge)
+[Link to Deployed Application](https://505laura.github.io/portfolio)
 
 ## Description
 This website is designed to be a personal web development portfolio that will showcase the works of the creator as well as provide ways to learn more about them and/or get in contact. It is intended to give potential employers an indication of their capabilities. It includes an 'about', 'portfolio' and 'contact' section as well as links to social medias.
@@ -8,9 +8,9 @@ This website is designed to be a personal web development portfolio that will sh
 The code is designed to be semantic and have a logical layout. The CSS includes multiple different sections to provide clear divides in the styling of each part of the content. 
 
 ## Visuals
-![Webpage](https://raw.githubusercontent.com/505laura/module-2-challenge/main/assets/images/505laura.github.io_module-2-challenge_%20(1).png)
-![Webpage](https://raw.githubusercontent.com/505laura/module-2-challenge/main/assets/images/505laura.github.io_module-2-challenge_%20(2).png)
-![Webpage](https://raw.githubusercontent.com/505laura/module-2-challenge/main/assets/images/505laura.github.io_module-2-challenge_%20(3).png)
+![Webpage](https://raw.githubusercontent.com/505laura/portfolio/main/assets/images/505laura.github.io_module-2-challenge_%20(1).png)
+![Webpage](https://raw.githubusercontent.com/505laura/portfolio/main/assets/images/505laura.github.io_module-2-challenge_%20(2).png)
+![Webpage](https://raw.githubusercontent.com/505laura/portfolio/main/assets/images/505laura.github.io_module-2-challenge_%20(3).png)
 
 ## Usage
 ### Navigation
